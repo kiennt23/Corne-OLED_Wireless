@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-&mt { flavor = "tap-preferred"; };
+&mt { flavor = "balanced"; };
 
 / {
     combos { compatible = "zmk,combos"; };
@@ -28,11 +28,11 @@
 &kp TAB        &kp Q        &kp W           &kp F            &kp P           &kp B         &kp J      &kp L            &kp U          &kp Y       &kp SEMICOLON  &kp BSPC
 &kp CAPS       &mt LCTRL A  &mt LEFT_ALT R  &mt LSHFT S      &mt LEFT_GUI T  &mt HOME G    &mt END M  &mt RIGHT_GUI N  &mt RSHFT E    &mt RALT I  &mt RCTRL O    &kp SQT
 &mt GLOBE ESC  &kp Z        &kp X           &kp C            &kp D           &kp V         &kp K      &kp H            &kp COMMA      &kp DOT     &kp FSLH       &kp ESC
-                                            &lt 3 PAGE_DOWN  &sl 1           &kp SPACE     &kp ENTER  &sl 2            &lt 1 PAGE_UP
+                                            &lt 2 PAGE_DOWN  &sl 1           &kp SPACE     &kp ENTER  &sl 2            &lt 1 PAGE_UP
             >;
         };
 
-        lower_layer {
+        numbers {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -47,7 +47,7 @@
             >;
         };
 
-        raise_layer {
+        symbols {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -62,7 +62,7 @@
             >;
         };
 
-        layer_3 {
+        misc {
             bindings = <
 &trans      &trans        &trans        &trans        &trans        &trans          &trans          &mkp LCLK       &mkp MCLK     &mkp RCLK        &trans  &trans
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
