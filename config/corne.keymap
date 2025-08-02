@@ -15,7 +15,14 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        to_rsi {
+            bindings = <&tog 4>;
+            key-positions = <28 31>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -71,6 +78,15 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans          &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
                                         &trans        &tog 0        &trans          &trans          &tog 0          &trans
+            >;
+        };
+
+        RSI {
+            bindings = <
+&kp TAB        &kp Z        &kp C           &kp Y             &kp W           &kp K        &kp X    &kp L            &kp U              &kp COMMA        &kp Q        &kp BSPC
+&kp CAPS       &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_SHIFT I  &mt LEFT_GUI T  &kp G        &kp M    &mt RIGHT_GUI N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT A  &mt RCTRL O  &kp SEMICOLON
+&mt GLOBE ESC  &kp J        &kp F           &kp P             &kp D           &kp B        &kp V    &kp H            &kp SQT            &kp DOT          &kp FSLH     &kp ESC
+                                            &kp LEFT_SHIFT    &sl 1           &kp SPACE    &kp RET  &sl 2            &kp RSHIFT
             >;
         };
     };
