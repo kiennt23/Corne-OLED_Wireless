@@ -19,12 +19,12 @@
         compatible = "zmk,combos";
 
         to_handsdown {
-            bindings = <&tog 4>;
+            bindings = <&to 4>;
             key-positions = <29 30>;
         };
 
         to_default {
-            bindings = <&tog 0>;
+            bindings = <&to 0>;
             key-positions = <17 18>;
         };
     };
