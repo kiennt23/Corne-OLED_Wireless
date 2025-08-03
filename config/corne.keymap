@@ -27,6 +27,16 @@
             bindings = <&to 0>;
             key-positions = <17 18>;
         };
+
+        z {
+            bindings = <&kp Z>;
+            key-positions = <1 2>;
+        };
+
+        q {
+            bindings = <&kp Q>;
+            key-positions = <2 4>;
+        };
     };
 
     keymap {
