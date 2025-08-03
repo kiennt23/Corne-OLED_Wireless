@@ -88,10 +88,10 @@
 
         hands_down {
             bindings = <
-&kp TAB        &kp W        &kp F           &kp M           &kp P       &kp V        &kp FSLH   &kp DOT     &kp Q          &kp DOUBLE_QUOTES  &kp SQT      &kp Z
-&kp CAPS       &mt LCTRL R  &mt LEFT_ALT S  &mt LSHIFT N    &mt LGUI T  &kp B        &kp COMMA  &mt RGUI A  &mt RSHIFT E   &mt RIGHT_ALT I    &mt RCTRL H  &kp J
-&mt GLOBE ESC  &kp X        &kp C           &kp L           &kp D       &kp G        &kp MINUS  &kp U       &kp O          &kp Y              &kp K        &kp ESC
-                                            &kp LEFT_SHIFT  &sl 1       &kp SPACE    &kp RET    &sl 2       &kp BACKSPACE
+&kp TAB        &kp J        &kp G           &kp M         &kp P       &kp V        &kp COMMA  &kp DOT     &kp SLASH      &kp SQT          &kp SEMICOLON  &kp BSPC
+&kp CAPS       &mt LCTRL C  &mt LEFT_ALT S  &mt LSHIFT N  &mt LGUI T  &kp K        &kp EQUAL  &mt RGUI A  &mt RSHIFT E   &mt RIGHT_ALT I  &mt RCTRL H    &kp GRAVE
+&mt GLOBE ESC  &kp X        &kp F           &kp L         &kp D       &kp W        &kp MINUS  &kp U       &kp O          &kp Y            &kp B          &kp ESC
+                                            &tog 1        &kp R       &kp SPACE    &kp RET    &tog 2      &kp BACKSPACE
             >;
         };
     };
