@@ -68,7 +68,7 @@
 &kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5             &kp N6     &kp N7    &kp N8  &kp N9     &kp N0  &kp BSPC
 &trans   &trans  &trans  &trans  &trans  &kp PRINTSCREEN    &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
 &trans   &trans  &trans  &trans  &trans  &trans             &trans     &trans    &trans  &trans     &trans  &trans
-                         &trans  &trans  &kp ENTER          &kp SPACE  &tog 0    &trans
+                         &trans  &trans  &kp ENTER          &kp SPACE  &to 0     &trans
             >;
         };
 
@@ -83,7 +83,7 @@
 &kp TAB  &kp EXCL        &kp AT           &kp HASH         &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS        &kp ASTRK       &kp LPAR       &kp RPAR        &kp BSPC
 &trans   &mt LEFT LCTRL  &mt LEFT_ALT UP  &mt LSHIFT DOWN  &mt LGUI RIGHT  &trans       &kp MINUS  &mt RGUI EQUAL  &mt RSHFT LBKT  &mt RALT RBKT  &mt RCTRL BSLH  &kp GRAVE
 &kp ESC  &trans          &trans           &trans           &trans          &trans       &kp UNDER  &kp PLUS        &kp LBRC        &kp RBRC       &kp PIPE        &kp TILDE
-                                          &trans           &tog 0          &kp ENTER    &kp SPACE  &sl 3           &trans
+                                          &trans           &to 0           &kp ENTER    &kp SPACE  &sl 3           &trans
             >;
         };
 
@@ -92,7 +92,7 @@
 &trans      &trans        &trans        &trans        &trans        &trans          &trans          &mkp LCLK       &mkp MCLK     &mkp RCLK        &trans  &trans
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans          &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
-                                        &trans        &tog 0        &trans          &trans          &tog 0          &trans
+                                        &trans        &to 0         &trans          &trans          &to 0           &trans
             >;
         };
 
@@ -101,7 +101,7 @@
 &kp TAB        &kp J        &kp G           &kp M         &kp P       &kp V         &kp COMMA      &kp DOT     &kp SLASH     &kp SQT          &kp SEMICOLON  &kp BSPC
 &kp CAPS       &mt LCTRL C  &mt LEFT_ALT S  &mt LSHIFT N  &mt LGUI T  &mt HOME K    &mt END EQUAL  &mt RGUI A  &mt RSHIFT E  &mt RIGHT_ALT I  &mt RCTRL H    &kp GRAVE
 &mt GLOBE ESC  &kp X        &kp F           &kp L         &kp D       &kp W         &kp MINUS      &kp U       &kp O         &kp Y            &kp B          &kp ESC
-                                            &tog 1        &kp R       &kp ENTER     &kp SPACE      &tog 2      &tog 0
+                                            &to 1         &kp R       &kp ENTER     &kp SPACE      &to 2       &to 0
             >;
         };
     };
