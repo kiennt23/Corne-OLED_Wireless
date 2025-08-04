@@ -80,10 +80,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS        &kp ASTRK       &kp LPAR       &kp RPAR        &kp BSPC
-&trans   &trans    &trans  &trans    &trans    &trans       &kp MINUS  &mt RGUI EQUAL  &mt RSHFT LBKT  &mt RALT RBKT  &mt RCTRL BSLH  &kp GRAVE
-&kp ESC  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS        &kp LBRC        &kp RBRC       &kp PIPE        &kp TILDE
-                           &trans    &tog 0    &kp ENTER    &kp SPACE  &sl 3           &trans
+&kp TAB  &kp EXCL        &kp AT           &kp HASH         &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS        &kp ASTRK       &kp LPAR       &kp RPAR        &kp BSPC
+&trans   &mt LEFT LCTRL  &mt LEFT_ALT UP  &mt LSHIFT DOWN  &mt LGUI RIGHT  &trans       &kp MINUS  &mt RGUI EQUAL  &mt RSHFT LBKT  &mt RALT RBKT  &mt RCTRL BSLH  &kp GRAVE
+&kp ESC  &trans          &trans           &trans           &trans          &trans       &kp UNDER  &kp PLUS        &kp LBRC        &kp RBRC       &kp PIPE        &kp TILDE
+                                          &trans           &tog 0          &kp ENTER    &kp SPACE  &sl 3           &trans
             >;
         };
 
@@ -98,10 +98,10 @@
 
         hands_down {
             bindings = <
-&kp TAB        &kp J        &kp G           &kp M         &kp P       &kp V        &kp COMMA  &kp DOT     &kp SLASH      &kp SQT          &kp SEMICOLON  &kp BSPC
-&kp CAPS       &mt LCTRL C  &mt LEFT_ALT S  &mt LSHIFT N  &mt LGUI T  &kp K        &kp EQUAL  &mt RGUI A  &mt RSHIFT E   &mt RIGHT_ALT I  &mt RCTRL H    &kp GRAVE
-&mt GLOBE ESC  &kp X        &kp F           &kp L         &kp D       &kp W        &kp MINUS  &kp U       &kp O          &kp Y            &kp B          &kp ESC
-                                            &tog 1        &kp R       &kp ENTER    &kp SPACE  &tog 2      &kp BACKSPACE
+&kp TAB        &kp J        &kp G           &kp M         &kp P       &kp V         &kp COMMA      &kp DOT     &kp SLASH     &kp SQT          &kp SEMICOLON  &kp BSPC
+&kp CAPS       &mt LCTRL C  &mt LEFT_ALT S  &mt LSHIFT N  &mt LGUI T  &mt HOME K    &mt END EQUAL  &mt RGUI A  &mt RSHIFT E  &mt RIGHT_ALT I  &mt RCTRL H    &kp GRAVE
+&mt GLOBE ESC  &kp X        &kp F           &kp L         &kp D       &kp W         &kp MINUS      &kp U       &kp O         &kp Y            &kp B          &kp ESC
+                                            &tog 1        &kp R       &kp ENTER     &kp SPACE      &tog 2      &tog 0
             >;
         };
     };
